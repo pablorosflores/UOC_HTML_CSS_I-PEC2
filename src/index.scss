@@ -281,19 +281,17 @@ nav li {
   padding: 5px;
 }
 
-ul.social {
+div.social {
   display: flex;
   justify-content: center;
 }
 
-ul.social li object {
+div.social object {
   width: 100px;
-  height: auto;
-  // flex-grow: 1 1 100px;
   margin: 5px;
 }
 
-ul.social .icon-footer:hover {
+div.social .icon-footer:hover {
   filter: invert(100%);
 }
 
